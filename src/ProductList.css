@@ -1,0 +1,45 @@
+.card {
+  padding: 20px;
+  width: 300px;
+  /* margin: auto; */
+  /* border: 1px solid #ddd; */
+  text-align: center;
+  margin-top: 10px;
+  height: 550px !important;
+  position: relative;
+}
+
+.card img {
+  height: 250px;
+  margin-top: 20px;
+}
+
+.card h1 {
+  height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card > p {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+}
+
+.categoriesButtons {
+  margin: 10px;
+}
